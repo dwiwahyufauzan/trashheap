@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>SBG COLLECTIVE</title>
+		<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+		<script>
+			tailwind.config = {
+				darkMode: "class",
+				theme: {
+					extend: {
+						fontFamily: {
+							"display": ["Space Grotesk", "sans-serif"],
+							"body": ["Noto Sans", "sans-serif"]
+						},
+						borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+					},
+				},
+			}
+		</script>
+		
+		<link rel="modulepreload" href="/trashheap/_app/immutable/entry/start.D53-AuJ9.js">
+		<link rel="modulepreload" href="/trashheap/_app/immutable/chunks/CE6y-CYU.js">
+		<link rel="modulepreload" href="/trashheap/_app/immutable/chunks/B2EysyrB.js">
+		<link rel="modulepreload" href="/trashheap/_app/immutable/entry/app.Bcwmq53r.js">
+		<link rel="modulepreload" href="/trashheap/_app/immutable/chunks/Dq3ihdby.js">
+		<link rel="modulepreload" href="/trashheap/_app/immutable/chunks/DuJAN9NX.js">
+	</head>
+	<body data-sveltekit-preload-data="hover" class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-white font-display overflow-x-hidden selection:bg-primary selection:text-white">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1fwl74o = {
+						base: "/trashheap",
+						assets: "/trashheap"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/trashheap/_app/immutable/entry/start.D53-AuJ9.js"),
+						import("/trashheap/_app/immutable/entry/app.Bcwmq53r.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
