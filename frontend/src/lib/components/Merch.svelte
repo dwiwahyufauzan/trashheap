@@ -84,7 +84,7 @@
                         style="transform: translateY({i * 50}px) rotate({i === 0 ? -8 : i === 1 ? 4 : -2}deg) translateX({i * 10}px);"
                     >
                         <div class="w-[400px] h-[300px] bg-transparent overflow-visible">
-                            <img src={item.img} alt={item.name} class="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                            <img src={item.img} alt={item.name} class="w-full h-full object-contain transition-all duration-300" />
                         </div>
                     </div>
                 {/each}
@@ -101,7 +101,7 @@
                         <img 
                             src={item.img} 
                             alt={item.name}
-                            class="max-w-[100%] max-h-[100%] object-contain grayscale group-hover:grayscale-0 transition-all duration-500"
+                            class="max-w-[100%] max-h-[100%] object-contain transition-all duration-500"
                         />
                         <div class="absolute top-2 left-2 flex flex-col gap-1">
                             <span class="bg-black text-white px-1.5 py-0.5 text-[7px] md:text-[10px] font-bold uppercase tracking-tighter self-start">
